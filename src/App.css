@@ -1,0 +1,39 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#background {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    background: white;
+    padding: 20px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#card .header {
+    display: flex;
+    align-items: center;
+}
+
+#card .text-author {
+    text-align: right;
+}
+#card .content-btn {
+    text-align: right;
+    padding: 15px 0px;
+}
+
+#card .btn {
+    padding: 9px 6px 3px 7px;
+    border-radius: 50%;
+    cursor: pointer;
+}
